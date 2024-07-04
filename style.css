@@ -1,0 +1,353 @@
+body{
+    width: 1910px;
+    height: 930px;
+    margin: 0;
+}
+
+body p{
+    color: #474846;
+}
+.cont{
+    background: url("bg.jpg") no-repeat;
+    background-position-y: -530px;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    width: 1920px;
+    height: 945px;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.bg{
+    background:rgba(221, 225, 214,0.15);
+    position: absolute;
+    width: 1925px;
+    height: 951px;
+    top: -8px;
+    left: -5px;
+    right: -800px;
+    background-size: cover;
+}
+
+.nav{
+    background: rgb(203, 207, 200,0.4);
+    position: absolute;
+    top: -8px;
+    width: 1925px;
+    height: 85px;
+}
+.bars{
+    margin-right: 35px;
+}
+.bars li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    float: right;
+    margin-right: 70px;
+    font-variant: all-petite-caps;
+    font-size: xx-large;
+
+}
+
+.naslov{
+    background: rgb(203, 207, 200,0.5);
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    color: #474846;
+    font-variant: titling-caps;
+    font-size: xxx-large;
+    font-style: italic;
+    border-radius: 20px;
+
+}
+
+.naslov p{
+    margin-top: 85px;
+}
+
+.bars a{
+    text-decoration: none;
+    color: #474846;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.bars a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.bio{
+    background: linear-gradient(to left,rgba(203, 207, 200,0.2),rgba(203, 207, 200,0.9));
+    width: 1923px;
+    height: 950px;
+    position: relative;
+    background-size: cover;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 1923px;
+    height: 950px;
+    background-size: cover;
+}
+
+.tekst{
+    background: linear-gradient(to left,rgba(203, 207, 200,0.5),rgba(203, 207, 200,0.8));
+    height: 300px;
+    width: 650px;
+    position: absolute;
+    top: 12%;
+    left: 16%;
+    font-size: xx-large;
+    color: #474846;
+    text-align: center;
+    font-style: italic;
+}
+
+.tekst p{
+    margin-top: 40px;
+}
+
+
+.sliki img {
+    margin-bottom: 50px;
+    width: 600px;
+    height: 350px;
+}
+.sliki img:first-child{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    rotate: -5deg;
+}
+
+.sliki img:nth-child(4){
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    rotate: 5deg;
+}
+
+.sliki img:nth-child(2){
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+
+
+
+.sliki img:nth-child(3){
+    position: absolute;
+    height: 450px;
+    left: 55%;
+    top: 10%;
+
+}
+
+
+.edu{
+background: url("jbt2.jpeg")no-repeat;
+    width: 1923px;
+    height: 950px;
+    position: relative;
+    background-size: cover;
+}
+
+.glavno{
+    display: flex;
+    flex-direction: row;
+}
+
+.dsd, .zgrada{
+    display: flex;
+    flex-direction: column;
+}
+
+.glavno .dsd img{
+    margin-top: 30px;
+
+}
+
+.glavno .dsd img:nth-child(2){
+    position: absolute;
+    left: 15%;
+    top: 44%;
+    width: 700px;
+    height: 450px;
+}
+
+.glavno .dsd img:first-child {
+    position: absolute;
+    left: 53%;
+    top: 44%;
+    width: 700px;
+    height: 450px;
+}
+
+.glavno .skolo{
+    position: absolute;
+    top: 12%;
+    left: 15%;
+    background: linear-gradient(to left,rgba(203, 207, 200,0.4),rgba(203, 207, 200,0.8));
+    height: 300px;
+    width: 1430px;
+}
+
+.glavno .skolo p{
+    text-align: center;
+    color: #474846;
+    font-size: xx-large;
+    margin-top: 4px;
+    font-style: italic ;
+}
+
+#span
+{
+    margin-right: 830px;
+}
+
+.hobby{
+    background: linear-gradient(to left,rgba(203, 207, 200,0.2),rgba(203, 207, 200,0.9));
+    width: 1923px;
+    height: 950px;
+    position: relative;
+    background-size: cover;
+}
+
+.jas img:first-child{
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    left: 70%;
+    top: 22%;
+
+}
+.jas img:nth-child(4){
+    top: 10%;
+    left: 49%;
+    position: absolute;
+    height: 400px;
+    width: 326px;
+
+}
+
+.jas img:nth-child(2){
+    width: 700px;
+    height: 400px;
+    left: 10%;
+    top: 55%;
+    position: absolute;
+}
+
+.jas img:nth-child(3){
+    top: 55%;
+    left: 49%;
+    position: absolute;
+    height: 400px;
+}
+
+.kontakt{
+    background: linear-gradient(to left,rgba(203, 207, 200,0.2),rgba(203, 207, 200,0.9));
+    width: 1923px;
+    height: 950px;
+    position: relative;
+    background-size: cover;}
+
+.kontakt iframe{
+    position: absolute;left: 55%;
+    top: 280%;
+    width: 700px;
+    height: 550px;
+}
+
+.info{
+    position: absolute;
+    top: 400%;
+    left: 10%;
+    background: linear-gradient(to left,rgba(203, 207, 200,0.7),rgba(203, 207, 200,0.9));
+    width: 750px;
+    height: 350px;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+    font-variant: all-petite-caps;
+}
+
+.info p{
+    margin-top: 70px;
+}
+
+.info a{
+    color: #625e5e;
+    transition: 0.4s;
+}
+
+.info a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+
+body img{
+    border-radius: 15px;
+}
+.site{
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+    width: 600px;
+    height: 50px;
+
+}
+
+.zbir{
+    position: absolute;
+    top: 6%;
+    left: 13%;
+    color: #474846;
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+    font-variant: all-petite-caps;
+}
+
+.site p{
+    padding-top: 10px;
+}
+
+.gore{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.logo{
+    position: absolute;
+    top: 58%;
+    left: 20.5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.logo2
+{
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 11.8%;
+    width: 50px;
+    height: 50px;
+}
